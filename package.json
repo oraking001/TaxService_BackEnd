@@ -1,6 +1,9 @@
 {
   "name": "devconnector",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "description": "Social network for ox",
   "main": "server.js",
   "scripts": {
