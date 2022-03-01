@@ -33,9 +33,7 @@
     "mongoose": "^5.11.8",
     "mysql": "^2.18.1",
     "nodemailer": "^6.7.2",
-    "normalize-url": "^5.3.0",
-    "web3": "^1.6.1",
-    "web3_extended": "^1.0.0"
+    "normalize-url": "^5.3.0"
   },
   "devDependencies": {
     "concurrently": "^5.3.0",
