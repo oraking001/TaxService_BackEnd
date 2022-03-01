@@ -1,11 +1,19 @@
 const express = require("express");
 const connectDB = require("./config/db");
 const fileUpload = require("express-fileupload");
+const cors = require("cors");
 
 const bodyParser = require("body-parser");
 
 const app = express();
 app.use(fileUpload());
+
+const corsOption = {
+  origin: "*",
+  optionsSuccessStatus: 200,
+};
+
+app.use(cors(corsOption));
 
 //Connect Database
 connectDB();
